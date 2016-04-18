@@ -26,33 +26,7 @@ public class CourseListFragment extends Fragment {
     private static final String ARG_POSITION = "POSITION";
     // TODO: Customize parameters
     private int mColumnCount = 1;
-//    @Override
-//    public void onStart() {
-//        super.onStart();
-//        // During startup, check if there are arguments passed to the fragment.
-//        // onStart is a good place to do this because the layout has already been
-//        // applied to the fragment at this point so we can safely call the method
-//        // below that sets the article text.
-//        Bundle args = getArguments();
-//        if (args != null) {
-//            // Set article based on argument passed in
-//            updateCourseItemView(args.getInt(ARG_POSITION));
-//        } else if (mColumnCount != -1) {
-//            // Set article based on saved instance state defined during onCreateView
-//            updateCourseItemView(mColumnCount);
-//        }
-//
-//    }
-//    public void updateCourseItemView(int pos) {
-//        TextView courseIdTextView = (TextView) getActivity().findViewById(R.id.coorse_detail_id);
-//        courseIdTextView.setText((CharSequence) CourseContent.ITEMS.get(pos).id);
-//        TextView courseTitleTextView = (TextView) getActivity().findViewById(R.id.coorse_detail_title);
-//        courseTitleTextView.setText((CharSequence) CourseContent.ITEMS.get(pos).title);
-//        TextView courseShortDescTextView = (TextView) getActivity().findViewById(R.id.coorse_detail_description);
-//        courseShortDescTextView.setText((CharSequence) CourseContent.ITEMS.get(pos).description);
-//
-//    }
-        private OnCourseListFragmentInteractionListener mListener;
+    private OnCourseListFragmentInteractionListener mListener;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the

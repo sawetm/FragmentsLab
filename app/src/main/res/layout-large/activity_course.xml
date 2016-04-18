@@ -9,12 +9,11 @@
         android:layout_weight="2"
         android:layout_height="match_parent"
         android:id="@+id/course_list_fragment_id"
-        android:name="sawetm.tacoma.uw.edu.fragmentslab.CourseListFragment"/>
+        android:name="sawetm.tacoma.uw.edu.fragmentslab.CourseListFragment" />
     <fragment
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/course_detail_fragment_id"
-        android:name="sawetm.tacoma.uw.edu.fragmentslab.CourseDetailFragment"/>
-
+        android:name="sawetm.tacoma.uw.edu.fragmentslab.CourseDetailFragment" />
 </LinearLayout>
